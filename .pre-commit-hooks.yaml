@@ -3,4 +3,4 @@
     description: Ensures that the GraphQL schema/TypeScript typings are up-to-date
     entry: yarn workspace dispatch generate-graphql-types
     language: system
-    always_run: true
+    types: [python, ts, tsx]
