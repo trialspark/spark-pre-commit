@@ -1,0 +1,6 @@
+-   id: graphql-types
+    name: Generate GraphQL Types
+    description: Ensures that the GraphQL schema/TypeScript typings are up-to-date
+    entry: yarn workspace dispatch generate-graphql-types
+    language: system
+    always_run: true
