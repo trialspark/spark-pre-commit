@@ -3,4 +3,8 @@
     description: Ensures that the GraphQL schema/TypeScript typings are up-to-date
     entry: yarn workspace dispatch generate-graphql-types
     language: system
+<<<<<<< Updated upstream
     types: [python, ts, tsx]
+=======
+    files: \.(py|[tj]sx?)$
+>>>>>>> Stashed changes
